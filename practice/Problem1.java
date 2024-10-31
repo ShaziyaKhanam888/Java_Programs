@@ -12,11 +12,12 @@ public class Problem1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int sum = 0;
-        for (int i = 1; i <= n; i++) {
+        int i = 1;
+        while (i <= n) {
             sum = sum + i;
+            i++;
         }
         System.out.println(sum);
-
         sc.close();
 
     }
